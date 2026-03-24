@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.js": "/EZHSK/static/js/main.bd5af3b5.js",
+    "static/js/958.170a6faf.js": "/EZHSK/static/js/958.170a6faf.js",
+    "static/media/Ionicons.ttf": "/EZHSK/static/media/Ionicons.3517aeaa34b2f8cd8eef.ttf",
+    "favicon.ico": "/EZHSK/favicon.ico",
+    "index.html": "/EZHSK/index.html",
+    "favicon-32.png": "/EZHSK/favicon-32.png",
+    "favicon-16.png": "/EZHSK/favicon-16.png",
+    "serve.json": "/EZHSK/serve.json",
+    "manifest.json": "/EZHSK/manifest.json",
+    "main.bd5af3b5.js.map": "/EZHSK/static/js/main.bd5af3b5.js.map",
+    "958.170a6faf.js.map": "/EZHSK/static/js/958.170a6faf.js.map"
+  },
+  "entrypoints": [
+    "static/js/958.170a6faf.js",
+    "static/js/main.bd5af3b5.js"
+  ]
+}

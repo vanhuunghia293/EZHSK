@@ -26,9 +26,7 @@ const LessonDetailScreen = () => {
             {lessonData.vocabulary.map((item, index) => (
               <Flashcard 
                 key={index}
-                hanzi={item.hanzi}
-                pinyin={item.pinyin}
-                meaning={item.meaning}
+                word={item}
               />
             ))}
           </ScrollView>

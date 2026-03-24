@@ -41,8 +41,18 @@ const Flashcard = ({ word }) => {
   });
 
   const speak = () => {
-    Speech.speak(word.hanzi, { language: 'zh-CN' });
+    if (word?.hanzi) {
+      Speech.speak(word.hanzi, { language: 'zh-CN' });
+    }
   };
+
+  if (!word) {
+    return (
+      <View style={[styles.container, { justifyContent: 'center' }]}>
+        <Text style={styles.hintText}>Dữ liệu thẻ lỗi</Text>
+      </View>
+    );
+  }
 
   return (
     <View style={styles.container}>
@@ -52,9 +62,9 @@ const Flashcard = ({ word }) => {
           <TouchableOpacity style={styles.ttsButton} onPress={speak}>
             <Ionicons name="volume-high" size={28} color="#6a11cb" />
           </TouchableOpacity>
-          <Text style={styles.hanziText}>{word.hanzi}</Text>
-          <Text style={styles.pinyinText}>{word.pinyin}</Text>
-          <Text style={styles.typeText}>[{word.type}]</Text>
+          <Text style={styles.hanziText}>{word?.hanzi || '?'}</Text>
+          <Text style={styles.pinyinText}>{word?.pinyin || ''}</Text>
+          <Text style={styles.typeText}>{word?.type ? `[${word.type}]` : ''}</Text>
           <View style={styles.hintContainer}>
             <Text style={styles.hintText}>Chạm để xem nghĩa</Text>
           </View>
@@ -62,7 +72,7 @@ const Flashcard = ({ word }) => {
 
         {/* Back Side */}
         <Animated.View style={[styles.card, styles.backCard, backStyle]}>
-          <Text style={styles.meaningText}>{word.meaning}</Text>
+          <Text style={styles.meaningText}>{word?.meaning || 'Chưa có nghĩa'}</Text>
         </Animated.View>
       </TouchableOpacity>
     </View>

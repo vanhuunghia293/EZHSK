@@ -23,12 +23,15 @@ const LessonDetailScreen = () => {
       case 'vocabulary':
         return (
           <ScrollView contentContainerStyle={styles.scrollContent}>
-            {lessonData.vocabulary.map((item, index) => (
-              <Flashcard 
-                key={index}
-                word={item}
-              />
-            ))}
+            {lessonData?.vocabulary?.map((item, index) => {
+              if (!item) return null;
+              return (
+                <Flashcard 
+                  key={index}
+                  word={item}
+                />
+              );
+            })}
           </ScrollView>
         );
       case 'text':

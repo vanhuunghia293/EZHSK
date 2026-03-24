@@ -1,0 +1,240 @@
+{
+  "hsk1": [
+    {
+      "id": "hsk1_l1",
+      "title": "Lesson 1: 你好 (Nǐ hǎo)",
+      "title_vn": "Bài 1: Chào bạn",
+      "vocabulary": [
+        {
+          "hanzi": "你",
+          "pinyin": "nǐ",
+          "meaning": "bạn, anh, chị (ngôi thứ 2 số ít)",
+          "type": "pron."
+        },
+        {
+          "hanzi": "好",
+          "pinyin": "hǎo",
+          "meaning": "tốt, khỏe, hay",
+          "type": "adj."
+        },
+        {
+          "hanzi": "你好",
+          "pinyin": "nǐhǎo",
+          "meaning": "chào bạn",
+          "type": "phrase"
+        },
+        {
+          "hanzi": "一",
+          "pinyin": "yī",
+          "meaning": "số 1",
+          "type": "num."
+        },
+        {
+          "hanzi": "五",
+          "pinyin": "wǔ",
+          "meaning": "số 5",
+          "type": "num."
+        },
+        {
+          "hanzi": "八",
+          "pinyin": "bā",
+          "meaning": "số 8",
+          "type": "num."
+        },
+        {
+          "hanzi": "大",
+          "pinyin": "dà",
+          "meaning": "lớn, to",
+          "type": "adj."
+        },
+        {
+          "hanzi": "不",
+          "pinyin": "bù",
+          "meaning": "không (phó từ phủ định)",
+          "type": "adv."
+        },
+        {
+          "hanzi": "口",
+          "pinyin": "kǒu",
+          "meaning": "miệng, nhân khẩu",
+          "type": "n."
+        },
+        {
+          "hanzi": "白",
+          "pinyin": "bái",
+          "meaning": "trắng",
+          "type": "adj."
+        },
+        {
+          "hanzi": "女",
+          "pinyin": "nǚ",
+          "meaning": "nữ, con gái",
+          "type": "n."
+        },
+        {
+          "hanzi": "马",
+          "pinyin": "mǎ",
+          "meaning": "con ngựa",
+          "type": "n."
+        }
+      ],
+      "text": [
+        {
+          "role": "A",
+          "content": "你好！",
+          "pinyin": "Nǐ hǎo!",
+          "translation": "Chào bạn!"
+        },
+        {
+          "role": "B",
+          "content": "你好！",
+          "pinyin": "Nǐ hǎo!",
+          "translation": "Chào bạn!"
+        }
+      ],
+      "grammar": [
+        {
+          "title": "Biến điệu của 'bù' (不)",
+          "content": "Khi 'bù' đứng trước một từ mang thanh 4, nó sẽ được đọc thành thanh 2 (bú)."
+        },
+        {
+          "title": "Chào hỏi cơ bản",
+          "content": "Sử dụng 'Nǐ hǎo' để chào một người. Nếu chào nhiều người, có thể dùng 'Nǐmen hǎo'."
+        }
+      ],
+      "exercises": [
+        {
+          "question": "Dịch sang tiếng Trung: 'Chào bạn'",
+          "answer": "你好"
+        },
+        {
+          "question": "Phiên âm của 'bā' là số mấy?",
+          "answer": "8"
+        }
+      ]
+    },
+    {
+      "id": "hsk1_l3",
+      "title": "Lesson 3: 明天见 (Míngtiān jiàn)",
+      "title_vn": "Bài 3: Hẹn gặp lại vào ngày mai",
+      "vocabulary": [
+        {
+          "hanzi": "学",
+          "pinyin": "xué",
+          "meaning": "học",
+          "type": "v."
+        },
+        {
+          "hanzi": "学习",
+          "pinyin": "xuéxí",
+          "meaning": "học tập",
+          "type": "v."
+        },
+        {
+          "hanzi": "英语",
+          "pinyin": "Yīngyǔ",
+          "meaning": "tiếng Anh",
+          "type": "n."
+        },
+        {
+          "hanzi": "阿拉伯语",
+          "pinyin": "Ālābóyǔ",
+          "meaning": "tiếng Ả Rập",
+          "type": "n."
+        },
+        {
+          "hanzi": "德语",
+          "pinyin": "Déyǔ",
+          "meaning": "tiếng Đức",
+          "type": "n."
+        },
+        {
+          "hanzi": "俄语",
+          "pinyin": "Éyǔ",
+          "meaning": "tiếng Nga",
+          "type": "n."
+        },
+        {
+          "hanzi": "法语",
+          "pinyin": "Fǎyǔ",
+          "meaning": "tiếng Pháp",
+          "type": "n."
+        },
+        {
+          "hanzi": "对",
+          "pinyin": "duì",
+          "meaning": "đúng",
+          "type": "adj."
+        },
+        {
+          "hanzi": "明天",
+          "pinyin": "míngtiān",
+          "meaning": "ngày mai",
+          "type": "n."
+        },
+        {
+          "hanzi": "见",
+          "pinyin": "jiàn",
+          "meaning": "gặp",
+          "type": "v."
+        },
+        {
+          "hanzi": "去",
+          "pinyin": "qù",
+          "meaning": "đi",
+          "type": "v."
+        },
+        {
+          "hanzi": "邮局",
+          "pinyin": "yóujú",
+          "meaning": "bưu điện",
+          "type": "n."
+        },
+        {
+          "hanzi": "寄",
+          "pinyin": "jì",
+          "meaning": "gửi",
+          "type": "v."
+        },
+        {
+          "hanzi": "信",
+          "pinyin": "xìn",
+          "meaning": "thư",
+          "type": "n."
+        },
+        {
+          "hanzi": "银行",
+          "pinyin": "yínháng",
+          "meaning": "ngân hàng",
+          "type": "n."
+        },
+        {
+          "hanzi": "取",
+          "pinyin": "qǔ",
+          "meaning": "lấy, rút",
+          "type": "v."
+        },
+        {
+          "hanzi": "钱",
+          "pinyin": "qián",
+          "meaning": "tiền",
+          "type": "n."
+        }
+      ],
+      "text": [
+        {
+          "role": "A",
+          "content": "明天见！",
+          "pinyin": "Míngtiān jiàn!",
+          "translation": "Ngày mai gặp lại nhé!"
+        },
+        {
+          "role": "B",
+          "content": "明天见！",
+          "pinyin": "Míngtiān jiàn!",
+          "translation": "Ngày mai gặp lại!"
+        }
+      ]
+    }
+  ]
+}

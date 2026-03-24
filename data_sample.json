@@ -1,0 +1,54 @@
+{
+  "levels": [
+    {
+      "id": "hsk1",
+      "name": "HSK 1",
+      "lessons": [
+        {
+          "id": "hsk1_l1",
+          "title": "Bào 1: Nǐ hǎo - Chào hỏi",
+          "vocabulary": [
+            {
+              "id": "v1",
+              "hanzi": "你",
+              "pinyin": "nǐ",
+              "type": "pron.",
+              "meaning": "Bạn, anh, chị (ngôi thứ 2 số ít)",
+              "audio_url": "v1.mp3"
+            },
+            {
+              "id": "v2",
+              "hanzi": "好",
+              "pinyin": "hǎo",
+              "type": "adj.",
+              "meaning": "Tốt, khỏe, ngon",
+              "audio_url": "v2.mp3"
+            }
+          ],
+          "grammar": [
+            {
+              "id": "g1",
+              "title": "Câu chào hỏi cơ bản",
+              "content": "Sử dụng 'Nǐ hǎo' để chào một người.\nVí dụ: 你好！ (Nǐ hǎo!) - Chào bạn!",
+              "highlights": ["你好"]
+            }
+          ],
+          "exercises": [
+            {
+              "id": "e1",
+              "type": "multiple_choice",
+              "question": "Dịch sang tiếng Trung: 'Chào bạn'",
+              "options": ["你好", "再见", "谢谢"],
+              "answer": "你好"
+            }
+          ],
+          "text_audio": {
+            "audio_url": "lesson1_text.mp3",
+            "content": "A: 你好！\nB: 你好！",
+            "pinyin": "A: Nǐ hǎo!\nB: Nǐ hǎo!"
+          }
+        }
+      ]
+    }
+  ]
+}
